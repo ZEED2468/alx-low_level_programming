@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include <stdlib.h>
+
 /**
  * main - possible combinations of two two-digit numbers
  *
@@ -10,7 +10,7 @@ int main(void)
 	int a;
 	int b;
 	int last;
-	/* your code goes there */
+	
 	a = 0;
 	while (a <= 99)
 	{
