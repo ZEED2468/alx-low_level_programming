@@ -3,7 +3,7 @@
 /**
  * print_diagonal - print character "\" n times
  * @n: number of characters to draw
- * Return: 0 
+ * Return: 0
  */
 
 void print_diagonal(int n)
