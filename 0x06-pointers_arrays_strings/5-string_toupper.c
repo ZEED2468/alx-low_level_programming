@@ -1,12 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * string_toupper - capitalize all letters in string
- * @s: string to manipulate
+ * @str: string to manipulate
  * Return: string with all letters capitalized
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 
 	int i = 0;
@@ -16,5 +16,5 @@ char *string_toupper(char *s)
 		if (s[i] >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 'a' + 'A';
 	}
-	return (s);
+	return (str);
 }
