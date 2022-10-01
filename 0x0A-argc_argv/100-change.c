@@ -10,7 +10,6 @@
  * Return: If the number of arguments is not exactly one - 1.
  *         Otherwise - 0.
  */
-
 int main(int argc, char *argv[])
 {
 	int cents, coins = 0;
@@ -23,7 +22,7 @@ int main(int argc, char *argv[])
 
 	cents = atoi(argv[1]);
 
-	while (c > 0)
+	while (cents > 0)
 	{
 		coins++;
 		if ((cents - 25) >= 0)
@@ -41,7 +40,7 @@ int main(int argc, char *argv[])
 			cents -= 5;
 			continue;
 		}
-		if ((c - 2) >= 0)
+		if ((cents - 2) >= 0)
 		{
 			cents -= 2;
 			continue;
