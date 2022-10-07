@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 
 /**
  * is_digit - checks if a string contains a non-digit char
@@ -90,11 +89,12 @@ int main(int argc, char *argv[])
 		if (result[i])
 			a = 1;
 		if (a)
-			_putchar(result[i] + '0');
+			putchar(result[i] + '0');
 	}
 	if (!a)
-		_putchar('0')
-	_putchar('\n');
+		putchar('0');
+	putchar('\n');
+
 	free(result);
 	return (0);
 }
